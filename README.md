@@ -2,4 +2,4 @@
 
 A site made for a bank, I made it much more dynamic and it can be published even for a real bank!
 
-I hope You like application ! : )
+I hope you like application ! : )
