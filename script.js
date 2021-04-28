@@ -17,7 +17,7 @@ const nav= document.querySelector('.nav');
 
 const openModal = function (e) {
   e.preventDefault();
-  modal.classList.remove('hidden'); // deschide
+  modal.classList.remove('hidden'); 
   overlay.classList.remove('hidden');
 };
 
