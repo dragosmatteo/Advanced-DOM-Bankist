@@ -22,7 +22,7 @@ const openModal = function (e) {
 };
 
 const closeModal = function () {
-  modal.classList.add('hidden'); // inchide
+  modal.classList.add('hidden'); 
   overlay.classList.add('hidden');
 };
 
