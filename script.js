@@ -262,4 +262,3 @@ const slider = function () {
   });
 };
 slider();
-
