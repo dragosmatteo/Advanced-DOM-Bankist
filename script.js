@@ -61,7 +61,7 @@ document.querySelector('.nav__links').addEventListener('click', function(e){
 });
 
 
-// !! sBuilding a tabel Component
+// !! Building a tabel Component
  
 tabsContainer.addEventListener('click', function(e) {
   const clicked = e.target.closest('.operations__tab');
