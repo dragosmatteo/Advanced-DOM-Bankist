@@ -174,8 +174,6 @@ imgTargets.forEach(img => imgObserver.observe(img));
 
 
 
-
-// !! Building a slider component part1
 // ?? Slider
 
 
