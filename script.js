@@ -1,6 +1,6 @@
 'use strict';
 
-////////////////////////////////////////
+///////////////////////////////////////
 // !! Modal window
 
 const modal = document.querySelector('.modal');
@@ -17,12 +17,12 @@ const nav= document.querySelector('.nav');
 
 const openModal = function (e) {
   e.preventDefault();
-  modal.classList.remove('hidden'); 
+  modal.classList.remove('hidden'); // deschide
   overlay.classList.remove('hidden');
 };
 
 const closeModal = function () {
-  modal.classList.add('hidden'); 
+  modal.classList.add('hidden'); // inchide
   overlay.classList.add('hidden');
 };
 
@@ -61,7 +61,7 @@ document.querySelector('.nav__links').addEventListener('click', function(e){
 });
 
 
-// !! Building a tabel Component
+// !! sBuilding a tabel Component
  
 tabsContainer.addEventListener('click', function(e) {
   const clicked = e.target.closest('.operations__tab');
@@ -173,7 +173,11 @@ const imgObserver = new IntersectionObserver(loadImg, {
 imgTargets.forEach(img => imgObserver.observe(img));
 
 
+
+
+// !! Building a slider component part1
 // ?? Slider
+
 
 const slider = function () {
   const slides = document.querySelectorAll('.slide');
@@ -258,3 +262,6 @@ const slider = function () {
   });
 };
 slider();
+// ==========================================
+// ==========================================
+// ==========================================
