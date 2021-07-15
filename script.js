@@ -38,7 +38,6 @@ document.addEventListener('keydown', function (e) {
   }
 });
 
-
 btnScrollTo.addEventListener('click', function(e){
   e.preventDefault();
 
@@ -48,9 +47,7 @@ btnScrollTo.addEventListener('click', function(e){
 });
 
 
-
 // !! Page navigation
-
 document.querySelector('.nav__links').addEventListener('click', function(e){
   e.preventDefault();
 
@@ -61,8 +58,7 @@ document.querySelector('.nav__links').addEventListener('click', function(e){
 });
 
 
-// !! sBuilding a tabel Component
- 
+// !! Building a tabel Component
 tabsContainer.addEventListener('click', function(e) {
   const clicked = e.target.closest('.operations__tab');
   console.log(clicked);
@@ -119,7 +115,6 @@ window.addEventListener('scroll', () => {
 });
 
 
-
 //!! Reveal sections fade in
 const allSections1 = document.querySelectorAll('.section');
 
@@ -143,7 +138,6 @@ allSections1.forEach(function (section) {
   section.classList.add('section--hidden');
   sectionObserver.observe(section);
 });
-
 
 
 // !! Lazy loading images
@@ -171,8 +165,6 @@ const imgObserver = new IntersectionObserver(loadImg, {
 });
 
 imgTargets.forEach(img => imgObserver.observe(img));
-
-
 
 
 // !! Building a slider component part1
